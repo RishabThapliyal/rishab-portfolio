@@ -29,7 +29,7 @@ export default function Education() {
       className="relative bg-[#0d0d0d] py-28 overflow-hidden"
     >
       {/* Section number */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[18vw] font-black text-white/[0.02] select-none pointer-events-none leading-none">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[18vw] font-black text-white/2 select-none pointer-events-none leading-none">
         02
       </div>
 
@@ -74,7 +74,7 @@ export default function Education() {
               </div>
 
               {/* Year */}
-              <div className="font-mono text-xs text-zinc-600 shrink-0 min-w-[80px] text-right">
+              <div className="font-mono text-xs text-zinc-600 shrink-0 min-w-20 text-right">
                 {item.year}
               </div>
 

@@ -103,12 +103,12 @@ export default function Hero() {
         {/* Social links */}
         <div className="reveal animate-fadeUp flex items-center gap-6 mt-14 pt-8 border-t border-[#1a1a1a]">
           {[
-            { label: "GitHub", href: "https://github.com/RishabThapliyal" },
+            { label: "GitHub", href: "https://github.com/rishabthapliyal" },
             {
               label: "LinkedIn",
               href: "https://www.linkedin.com/in/rishab-thapliyal-b72514221/",
             },
-            { label: "LeetCode", href: "#" },
+            { label: "LeetCode", href: "https://leetcode.com/u/Rishabth_/" },
           ].map((s) => (
             <a
               key={s.label}
@@ -132,7 +132,7 @@ export default function Hero() {
         <span className="font-mono text-[10px] text-zinc-600 tracking-widest uppercase">
           Scroll
         </span>
-        <div className="w-px h-8 bg-gradient-to-b from-zinc-600 to-transparent" />
+        <div className="w-px h-8 bg-linear-to-b from-zinc-600 to-transparent" />
       </div>
     </section>
   );

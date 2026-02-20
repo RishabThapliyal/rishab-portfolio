@@ -24,7 +24,7 @@ const projects: Project[] = [
     ],
     github:
       "https://github.com/RishabThapliyal/leave-attendance-marking-system",
-    live: "#",
+    live: "https://leave-attendance-system.netlify.app/",
     highlight: "100% data integrity via cancel-and-recreate immutable strategy",
   },
   {

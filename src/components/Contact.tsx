@@ -5,8 +5,8 @@ export default function Contact() {
       className="relative bg-[#0a0a0a] py-28 overflow-hidden"
     >
       {/* Background decorations */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-px h-28 bg-gradient-to-t from-amber-400/20 to-transparent" />
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-400/20 to-transparent" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-px h-28 bg-linear-to-t from-amber-400/20 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-amber-400/20 to-transparent" />
 
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         {/* Section header */}
@@ -91,7 +91,7 @@ export default function Contact() {
         {/* Footer */}
         <div className="mt-24 pt-8 border-t border-[#1a1a1a] flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-mono text-xs text-zinc-700 tracking-widest">
-            © 2025 Rishab Thapliyal
+            © 2026 Rishab Thapliyal
           </span>
           <span className="font-mono text-xs text-zinc-700 tracking-widest">
             Built with Next.js & Tailwind CSS
