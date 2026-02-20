@@ -2,8 +2,24 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rishab Thapliyal | Portfolio",
-  description: "Full Stack Developer Portfolio",
+  title: "Rishab Thapliyal | Full Stack Developer",
+  description:
+    "Full Stack Developer specializing in Next.js, TypeScript, PostgreSQL, and scalable web systems.",
+  keywords: [
+    "Rishab Thapliyal",
+    "Full Stack Developer",
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Portfolio",
+  ],
+  authors: [{ name: "Rishab Thapliyal" }],
+  openGraph: {
+    title: "Rishab Thapliyal | Full Stack Developer",
+    description:
+      "Full Stack Developer specializing in Next.js, TypeScript, and scalable web systems.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -13,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-50 text-zinc-900">{children}</body>
+      <body className="bg-[#0a0a0a] text-white antialiased">{children}</body>
     </html>
   );
 }
