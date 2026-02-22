@@ -60,7 +60,7 @@ export default function Projects() {
       className="relative bg-[#0a0a0a] py-28 overflow-hidden"
     >
       {/* Section number */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[18vw] font-black text-white/[0.02] select-none pointer-events-none leading-none">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[18vw] font-black text-white/2 select-none pointer-events-none leading-none">
         03
       </div>
 
@@ -93,7 +93,7 @@ export default function Projects() {
 
               <div className="relative flex flex-col md:flex-row md:items-start gap-6">
                 {/* Index */}
-                <div className="font-mono text-5xl font-black text-white/[0.04] group-hover:text-amber-400/10 transition-colors shrink-0 leading-none select-none">
+                <div className="font-mono text-5xl font-black text-white/4 group-hover:text-amber-400/10 transition-colors shrink-0 leading-none select-none">
                   {project.index}
                 </div>
 
