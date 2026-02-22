@@ -58,7 +58,7 @@ export default function Skills() {
       className="relative bg-[#0d0d0d] py-28 overflow-hidden"
     >
       {/* Section number */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[18vw] font-black text-white/[0.02] select-none pointer-events-none leading-none">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[18vw] font-black text-white/2 select-none pointer-events-none leading-none">
         04
       </div>
 

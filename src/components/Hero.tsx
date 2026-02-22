@@ -38,7 +38,7 @@ export default function Hero() {
       />
 
       {/* Large decorative number */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[20vw] font-black text-white/[0.02] select-none pointer-events-none leading-none">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 font-mono text-[20vw] font-black text-white/2 select-none pointer-events-none leading-none">
         01
       </div>
 

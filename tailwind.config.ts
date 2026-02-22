@@ -14,9 +14,9 @@ const config: Config = {
       },
       colors: {
         amber: {
-          300: "#fcd34d",
-          400: "#fbbf24",
-          500: "#f59e0b",
+          300: "#fcd34d", //🟡 Light Yellow
+          400: "#fbbf24", //🟠 Sunflower Valley
+          500: "#f59e0b", //🟠 Deep Amber
         },
       },
       animation: {
