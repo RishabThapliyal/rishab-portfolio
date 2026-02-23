@@ -29,6 +29,23 @@ const projects: Project[] = [
   },
   {
     index: "02",
+    title: "Media Search App",
+    desc: "Unified media discovery app integrating 3 third-party APIs (Unsplash, Pexels, Giphy) for searching photos, videos & GIFs in one place. Features paginated infinite scroll and a persistent collection system with Redux localStorage hydration.",
+    tech: [
+      "Next.js",
+      "JavaScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Unsplash API",
+      "Pexels API",
+      "Giphy API",
+    ],
+    github: "https://github.com/RishabThapliyal/media-search-nextjs",
+    live: "https://media-search-nextjs.netlify.app/",
+    highlight: "3 APIs unified — photos, videos & GIFs in a single interface",
+  },
+  {
+    index: "03",
     title: "Video Scene Classification System",
     desc: "AI-powered video analysis tool using CLIP and Sentence Transformers that enables natural language search within video content. Flask backend processes video frames with OpenCV and integrates multi-modal NLP models.",
     tech: [
@@ -42,14 +59,6 @@ const projects: Project[] = [
     github:
       "https://github.com/RishabThapliyal/Video-Scene-Classification-System",
     highlight: "Natural language search inside video using multi-modal AI",
-  },
-  {
-    index: "03",
-    title: "Spam Mail Prediction",
-    desc: "End-to-end ML pipeline achieving 97% accuracy classifying emails as spam or ham. Implemented TF-IDF vectorization, label encoding, and Logistic Regression with complete preprocessing.",
-    tech: ["Python", "Logistic Regression", "TF-IDF", "NLP", "scikit-learn"],
-    github: "https://github.com/RishabThapliyal/Spam-Mail-Prediction-",
-    highlight: "97% classification accuracy",
   },
 ];
 

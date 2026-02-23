@@ -35,7 +35,7 @@ This is my personal developer portfolio — built from scratch with a dark, mini
 | Language   | TypeScript                        |
 | Styling    | Tailwind CSS v4                   |
 | Fonts      | DM Serif Display + JetBrains Mono |
-| Deployment | Vercel / Netlify                  |
+| Deployment | Vercel                            |
 
 ---
 
@@ -50,8 +50,8 @@ This is my personal developer portfolio — built from scratch with a dark, mini
 
 ```bash
 # Clone the repository
-git clone https://github.com/RishabThapliyal/portfolio.git
-cd portfolio
+git clone https://github.com/RishabThapliyal/rishab-portfolio.git
+cd rishab-portfolio
 
 # Install dependencies
 npm install
@@ -92,6 +92,48 @@ portfolio/
 ├── next.config.ts
 └── tsconfig.json
 ```
+
+---
+
+## 🚀 Featured Projects
+
+### 📅 [Leave & Attendance Management System](https://github.com/RishabThapliyal/leave-attendance-marking-system)
+
+> Enterprise-grade attendance system with immutable event architecture
+
+- Immutable event model — cancel + recreate strategy ensures 100% data integrity
+- Zod rule engine — server-side validation with `{ allowed, reason, statusCode }`
+- Month locking with `HTTP 423`, full audit log trail
+- FullCalendar UI + RTK Query for optimized state updates
+
+`Next.js` `TypeScript` `PostgreSQL` `Prisma` `Redux Toolkit` `Zod`
+[![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://leave-attendance-system.netlify.app/)
+
+---
+
+### 🔍 [Media Search App](https://github.com/RishabThapliyal/media-search-nextjs)
+
+> Unified media discovery — search photos, videos & GIFs from one place
+
+- 3 APIs integrated — Unsplash, Pexels & Giphy in a single search interface
+- Paginated infinite scroll with Redux `appendResults` pattern
+- Persistent collection system via `localStorage` + Redux hydration on mount
+- Responsive grid layout — 1 to 5 columns across breakpoints
+
+`Next.js` `JavaScript` `Redux Toolkit` `Tailwind CSS`
+[![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://media-search-nextjs.netlify.app/)
+
+---
+
+### 🎬 [Video Scene Classification System](https://github.com/RishabThapliyal/Video-Scene-Classification-System)
+
+> Natural language search inside video using multi-modal AI
+
+- CLIP + Sentence Transformers for semantic video frame search
+- OpenCV frame extraction pipeline with Flask backend
+- Search any concept inside a video using plain English
+
+`React.js` `Python` `Flask` `CLIP` `Sentence Transformers` `OpenCV`
 
 ---
 
