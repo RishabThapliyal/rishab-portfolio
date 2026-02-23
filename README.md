@@ -21,7 +21,7 @@ This is my personal developer portfolio — built from scratch with a dark, mini
 | ------------- | ------------------------------------------------- |
 | **Hero**      | Introduction, availability status & quick links   |
 | **Education** | B.Tech CSE (CGPA 8.15) & school background        |
-| **Projects**  | Featured full-stack & ML projects with live demos |
+| **Projects**  | Featured full-stack projects with live demos      |
 | **Skills**    | Tech stack, stats (900+ LeetCode), certifications |
 | **Contact**   | Email, LinkedIn, GitHub & phone                   |
 
