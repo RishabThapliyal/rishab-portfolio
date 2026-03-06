@@ -12,20 +12,21 @@ const projects: Project[] = [
   {
     index: "01",
     title: "Leave & Attendance Management System",
-    desc: "Full-stack attendance system with a custom Zod rule engine, immutable event-based architecture ensuring 100% data integrity, and FullCalendar UI integration with RTK Query optimization.",
+    desc: "Full-stack attendance system with real authentication (NextAuth.js JWT sessions, bcrypt hashing, role-based access control), session-secured APIs, a custom Zod rule engine, immutable event-based architecture ensuring 100% data integrity, and FullCalendar UI with RTK Query optimization.",
     tech: [
       "Next.js",
       "TypeScript",
       "PostgreSQL",
       "Prisma",
+      "NextAuth.js",
       "Redux Toolkit",
       "RTK Query",
       "Zod",
     ],
     github:
       "https://github.com/RishabThapliyal/leave-attendance-marking-system",
-    live: "https://leave-attendance-system.netlify.app/",
-    highlight: "100% data integrity via cancel-and-recreate immutable strategy",
+    live: "https://leave-attendance-marking-system.vercel.app/",
+    highlight: "JWT auth + RBAC + immutable event architecture",
   },
   {
     index: "02",

@@ -28,7 +28,15 @@ const categories: SkillCategory[] = [
   },
   {
     label: "Backend & DB",
-    items: ["Node.js", "PostgreSQL", "Prisma ORM", "REST APIs", "Zod"],
+    items: [
+      "Node.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "REST APIs",
+      "Zod",
+      "NextAuth.js",
+      "bcryptjs",
+    ],
   },
   {
     label: "Tools & Concepts",
@@ -40,6 +48,8 @@ const categories: SkillCategory[] = [
       "Vitest",
       "DSA",
       "Immutable Architecture",
+      "JWT / Session Auth",
+      "RBAC",
     ],
   },
 ];
